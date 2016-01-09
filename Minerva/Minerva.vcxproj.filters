@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Minerva">
+      <UniqueIdentifier>{ffa41f8d-4744-456b-9718-a29eddbc3d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minerva\GameObject">
+      <UniqueIdentifier>{d5011455-9e0f-4398-987e-78d92fb5306f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minerva\Sprites">
+      <UniqueIdentifier>{a1fde88b-353f-4d2b-9e99-ea8f1346d382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minerva\Math">
+      <UniqueIdentifier>{a2afda60-c31e-45e8-af2a-4ad1198244a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Minerva.cpp">
+      <Filter>Minerva</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Minerva\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Minerva\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Minerva.h">
+      <Filter>Minerva</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Minerva\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>Minerva\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Minerva\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="luatest.lua" />
+  </ItemGroup>
+</Project>
